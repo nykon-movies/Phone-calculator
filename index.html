@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHONE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascriptt.js"></script>
+   
+</head>
+<body>
+    <form>
+        <input type="text" id="output">
+        <div>
+            <button type="button" onclick="clearOutput()">AC</button>
+            <button type="button" onclick="backspace()">Back</button>
+            <button type="button" onclick="appendToOutput('%')">%</button>
+            <button type="button" onclick="appendToOutput('/')">/</button>
+            <br>
+            <button type="button" onclick="appendToOutput('7')">7</button>
+            <button type="button" onclick="appendToOutput('8')">8</button>
+            <button type="button" onclick="appendToOutput('9')">9</button>
+            <button type="button" onclick="appendToOutput('*')">X</button>
+            <br>
+            <button type="button" onclick="appendToOutput('4')">4</button>
+            <button type="button" onclick="appendToOutput('5')">5</button>
+            <button type="button" onclick="appendToOutput('6')">6</button>
+            <button type="button" onclick="appendToOutput('-')">-</button>
+            <br>
+            <button type="button" onclick="appendToOutput('1')">1</button>
+            <button type="button" onclick="appendToOutput('2')">2</button>
+            <button type="button" onclick="appendToOutput('3')">3</button>
+            <button type="button" onclick="appendToOutput('+')">+</button>
+            <br>
+            <button type="button" onclick="appendToOutput('0')">0</button>
+            <button type="button" onclick="appendToOutput('.')">.</button>
+            <button type="button" onclick="calculateResult()">ANS</button>
+        </div>
+
+    </form>
+   
+</body>
+</html>
